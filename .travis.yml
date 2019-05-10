@@ -1,10 +1,11 @@
 language: python
 python:
-  - "3.6"
-
+- '3.6'
 install:
-  - pip install -r requirements.txt
-
+- pip install -r requirements.txt
 script:
-  - python setup.py install
-  - pytest
+- python setup.py install
+- pytest
+deploy:
+  password:
+    secure: QpH8K/bCD8wFLLBRuPcr+/x7aoOKuHaG1n3RiX4Rccu/6kwU5G/bjK7cua29icBnNy5+wxN11Thma8JiTn9fTTToUs6KK5r9PCrwQgWbWxaV693HJan3Rfrp49HB2BIZUcNRC1WwxK8RFBpFz97zYGDj+m35bLEVc3RxdNGZOpGDXxLvcVkTDBhOKGbpim+ekzsMieWJLjCYEKWPg302OjzId0RGet+bUO0VTyYPjh66tT1DpMchLlTA5Wh4hxfJBkjedZY1IzCxWbGDafHak9u7j7BXbe/He9LZfHJaW4ohNYf5BMwSl3w+FIMt+A7EFIqr2qKTNBH80CQP/90UP6Jw+YlYRYAeXye9o+TDv4a5qNohnrlSaTPuh3zGTq9D8+hrCoaDpO9rR48mNts6P3VxnxG+9Gd+FzpUX8+bnXJvNhbzpL8D9e0Vnw+TC/BdAaNZIo9ayoYzpD8rD5ks34FeO/OjB11XTM6amYH9mvjZVz4yJaPoDgckgD6//GbPLLG663mtxOKn7jdBkBU2/FivZyWkopsGB5jJu1V+tkxXdJ4vxjUKZgQpMPBc0SLEeZwVpeAXuIhgl/9Ytp78/1VliofB8eAMgQEzbZGXLKoVKYbheOxuLm/fBWFS6VEd4Dhac8lcOug5IK0OErtXl/0ymwrunpdGDk/OdcLExug=
