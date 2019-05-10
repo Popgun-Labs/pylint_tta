@@ -3,6 +3,14 @@ Pylint plugin to check for *PyTorch* tensor type annotations
 
 Tested on Python 3.6+
 
+---
+
+| Branch | Status |
+| --- | --- |
+| Master | ![](https://travis-ci.org/Popgun-Labs/pylint_tta.svg?branch=master) |
+
+---
+
 
 # Quickstart
 ```bash
