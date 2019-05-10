@@ -20,8 +20,9 @@ setup(
     author='Kendrick Tan',
     author_email='kendrick@wearepopgun.com',
     url='https://github.com/Popgun-Labs/pylint-tta',
-    description='Linter for PyTorch operations',
+    description='Linter for PyTorch Tensor operations',
     long_description=readme,
+    long_description_content_type='text/markdown',
 
     # Package info
     packages=find_packages(exclude=('test',)),
