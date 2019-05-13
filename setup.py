@@ -3,7 +3,8 @@ import os
 import shutil
 import sys
 from setuptools import setup, find_packages
-from pylint_tta.version import __version__
+
+__version__ = '0.0.4a'
 
 readme = open('README.md').read()
 requirements_txt = open('requirements.txt').read().split('\n')
